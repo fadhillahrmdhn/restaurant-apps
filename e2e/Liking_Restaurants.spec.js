@@ -5,7 +5,7 @@ Before(({ I }) => {
   I.amOnPage('/#/like');
 });
 
-Scenario('liking one Restaurant', async ({I}) => {
+Scenario('liking one Restaurant', async ({ I }) => {
   I.amOnPage('/');
 
   I.waitForElement('.post-item__title', 10);
