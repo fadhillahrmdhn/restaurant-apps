@@ -25,4 +25,10 @@ Scenario('liking one Restaurant', async ({I}) => {
   const likedRestaurantTitle = await I.grabTextFrom('.post-item__title');
 
   assert.strictEqual(firstRestaurantTitle, likedRestaurantTitle);
+
+  I.click(firstRestaurant);
+  I.waitForElement('#likeButton');
+  I.seeElement('#likeButton');
+  I.click('#likeButton');
+  I.amOnPage('/#/like');
 });
