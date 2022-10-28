@@ -131,6 +131,7 @@ main{
   min-height: 400px;
   width: 100%;
   text-align: center;
+  /* background-image: url("./images/hero-image_2-small.jpg"); */
   background-image: url("../../dist/images/hero-image_2-small.jpg");
   background-position: center;
   background-color: green;

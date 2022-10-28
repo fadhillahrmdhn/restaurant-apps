@@ -123,6 +123,7 @@
     }
 
     #maincontent .hero {
+      /* background-image: url("./images/hero-image_2-large.jpg"); */
       background-image: url("../../dist/images/hero-image_2-large.jpg");
     }
   }
