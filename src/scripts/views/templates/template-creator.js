@@ -58,8 +58,8 @@ const createRestaurantDetailTemplate = (restaurant) => `
 
 const createRestaurantItemTemplate = (restaurant) => `
 <article class="post-item" tabindex="0">
-  <img class="post-item__thumbnail"
-       src="${CONFIG.BASE_IMAGE_URL + restaurant.pictureId}" alt="menampilkan foto dari restaurant ${restaurant.name}">
+  <img class="post-item__thumbnail lazyload"
+  data-src="${CONFIG.BASE_IMAGE_URL + restaurant.pictureId}" alt="menampilkan foto dari restaurant ${restaurant.name}">
   <div class="post-item__content">
     <h2 class="post-item__title"><a href="/#/detail/${restaurant.id}">${restaurant.name}</a></h2>
     <p class="post-item__info">City : ${restaurant.city}</p>

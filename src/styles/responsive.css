@@ -126,11 +126,6 @@
       background-image: url("../../dist/images/hero-image_2-large.jpg");
     }
   }
-  /* @media screen and (max-width: 600px) {
-    #maincontent .hero {
-      background-image: url("../../dist/images/hero-image_2-small.jpg");
-    }
-  } */
 
   @media screen and (min-width: 650px) {
     .headline__content {
