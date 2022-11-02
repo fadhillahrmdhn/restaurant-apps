@@ -30,6 +30,6 @@ Scenario('like and dislike Restaurant', async ({ I }) => {
   I.waitForElement('#likeButton');
   I.seeElement('#likeButton');
   I.click('#likeButton');
-
+  I.amOnPage('/#/like');
   I.dontSeeElement('.post-item');
 });
